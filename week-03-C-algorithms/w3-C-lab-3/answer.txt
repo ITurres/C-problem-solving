@@ -1,0 +1,27 @@
+sort1 uses: Bubble sort.-
+
+How do you know?: 'R' stands for Real-time and 'U' stands for User-time / (tested on 5000 numbers);
+When it comes to RANDOM numbers: sort1 has an average 'R' between 75-115 s -and- a 'U' between 50-60 s;
+When it comes to SORTED numbers: sort1 has an average 'R' between 20-50 s -and- a 'U' between 0-10 s;
+When it comes to REVERSED numbers: sort1 has an average 'R' between 75-105 s -and- a 'U' between 50-60 s;
+
+Given this values, I concluded that sort1 performs similar on it's RANDOM and REVERSED, and significantly faster on SORTED;
+
+sort2 uses: Merge sort.-
+
+How do you know?: 'R' stands for Real-time and 'U' stands for User-time / (tested on 5000 numbers);
+When it comes to RANDOM numbers: sort2 has an average 'R' between 20-60 s -and- a 'U' between 0-10 s;
+When it comes to SORTED numbers: sort2 has an average 'R' between 20-50 s -and- a 'U' between 0-6 s;
+When it comes to REVERSED numbers: sort2 has an average 'R' between 20-45 s -and- a 'U' between 0-10 s;
+
+Given this values, I concluded that sort2 performs similar on it's RANDOM and REVERSED (but faster than sort1 and sort3), and much faster on SORTED;
+
+sort3 uses: Selection sort.-
+
+How do you know?: 'R' stands for Real-time and 'U' stands for User-time / (tested on 5000 numbers);
+When it comes to RANDOM numbers: sort3 has an average 'R' between 45-112 s -and- a 'U' between 20-40 s;
+When it comes to SORTED numbers: sort3 has an average 'R' between 40-70 s -and- a 'U' between 20-40 s;
+When it comes to REVERSED numbers: sort3 has an average 'R' between 45-80 s -and- a 'U' between 20-40 s;
+
+Given this values, I concluded that sort3 performs relatively similar on it's RANDOM and REVERSED, but sort3 is slower than sort1 when SORTED taking
+into account the values above. That shouts that sort1 is Bubble sort and this sort3 is Selection Sort.
